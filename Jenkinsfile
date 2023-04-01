@@ -5,7 +5,7 @@ pipeline {
         terraform 'tf'
     }
     environment {
-        IMAGE_NAME = "ethantechtorial/java-app-tf:java-maven-${BUILD_NUMBER}"
+        IMAGE_NAME = "suhrob7072/java-app-tf:java-maven-${BUILD_NUMBER}"
     }
     stages {
     
